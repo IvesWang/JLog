@@ -15,9 +15,7 @@ public class MainActivity extends Activity {
         someLogs();
     }
     private void someLogs(){
-        String aa = "a string here";
-
-
-        JLog.d(2, "sf", aa);
+        JLog.setPrintToString(true);
+        JLog.d(MainActivity.class.getSimpleName(), new Object[]{32, null, "a string", true}, new String[]{"age", "district", "comment", "pass"});
     }
 }
