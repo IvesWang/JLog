@@ -1,4 +1,4 @@
- - Note
+ ## Note
 
 ```
 At begin,I want to use annotation processor+custom lint to make it more intelligent, 
@@ -9,7 +9,7 @@ also unable to get the length of a list during compile time, no way, had to use 
 的长度，没办法，只好用这么一个矬的方案了。
 ```
 
- - License
+ ## License
 
 ```
 Copyright 2017 Ives Wang
