@@ -1,1 +1,1 @@
-include ':app', ':jlog'
+include ':app', ':jlog'//, ':processor', ':smart-log-annotation'

@@ -1,5 +1,13 @@
- ## Note
+ ## JLog
+ 简便的使用Log类，不用每次编码都写一堆判断是否空值、输出null还是""、拼接字符串等。
+ 
+ ## Getting Start
+ 只需要在你主module的build.gradle文件中加入：
+ ```
+ compile 'com.github.iveswang:jlog:1.0'
+ ```
 
+ ## Note
 ```
 At begin,I want to use annotation processor+custom lint to make it more intelligent, 
 simplified the caller's parameters,but it's unable to get the variable's name passed on method, 
