@@ -9,7 +9,7 @@
 
  ## Note
 ```
-At begin,I want to use annotation processor+custom lint to make it more intelligent, 
+In the begining,I want to use annotation processor+custom lint to make it more intelligent, 
 simplified the caller's parameters,but it's unable to get the variable's name passed on method, 
 also unable to get the length of a list during compile time, no way, had to use such a stupid plan.
 
